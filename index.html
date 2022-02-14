@@ -23,7 +23,7 @@
                     
                     <input type="number" class="form-control mt-3 "    aria-describedby="emailHelp"   placeholder="5" >
                     
-                    <select  class="form-control mt-3 mb-3 " >
+                    <select  class="form-select mt-3 mb-3 " >
                         <option>All</option>
                         <option >Spider man </option>
                         <option >Terminator </option>
@@ -31,8 +31,8 @@
                         
                     </select>
                     
-                    <select  class="form-control mt-3 " >
-                        <option>Rating(high to low)</option>
+                    <select  class="form-select mt-3 " >
+                        <option  >Rating(high to low)</option>
                         <option >Spider man </option>
                         <option >Terminator </option>
                         <option >Venum</option>
@@ -62,8 +62,11 @@
             <div class="col-8" >
                 <div class=" ms-3  mt-3" >
                     <span class="fw-bold  " >Search results: 39</span>
+                    <div class="alert alert-primary mt-3" role="alert">
+                        Use the form on the left to search for a movie
+                      </div>
                     
-                    <div class="d-block my-2 rounded-2 bg-info ps-3 bg-opacity-25 text-success py-3 border-50" >Use the form on the left to search for a movie</div>
+
                     
                     
                     
@@ -72,18 +75,18 @@
                         <div class="col-6 " >
                             
                             <div class="border   " >
-                                <img class="w-100  img-fluid mb-4 " src="./images/avengers.jpg" alt="film avengers trailler 5 people run ">
+                                <img width="346" height="216" class="  img-fluid mb-4 " src="./images/avengers.jpg" alt="film avengers trailler 5 people run ">
                                 <span class="fw-bold mb-2 d-block ms-3 mt-3" >Avengers:Infinity War</span>
-                                <span class="ms-3 mb-3 d-block"><img class="width me-3" src="./images/calendar.svg" alt="icon calendar">2018</span>
-                                <span class="ms-3 mb-3 d-block" ><img class="width me-3" src="./images/star.svg" alt="icon star">8.7</span>
+                                <span class="ms-3 mb-3 d-block d-flex align-items-center"><img width="20" height="20" class=" me-3" src="./images/calendar.svg" alt="icon calendar">2018</span>
+                                <span class="ms-3 mb-3 d-block d-flex align-items-center" ><img width="20" height="20" class=" me-3" src="./images/star.svg" alt="icon star">8.7</span>
 
-                                <button class="btn  border-info  text-info ms-3  mb-3" >
+                                <button class="btn  border-info btn-outline-primary  ms-3  mb-3" >
                                     Watch trailer
                                 </button>
-                                <button class="btn border-primary text-primary mb-3 " >
+                                <button class="btn border-primary btn-outline-primary mb-3 " >
                                     More info
                                 </button>
-                                <button class="btn border-success text-success mb-3 " >
+                                <button class="btn border-success btn-outline-success mb-3 " >
                                     Bookmark
                                 </button>
                                 
@@ -94,38 +97,43 @@
                             
                             <div class="border   " >
                                 <img class="w-100  img-fluid mb-3 " src="./images/theavengers.jpg" alt="the avengers  dividing man ">
-                                <span class="fw-bold mb-2 d-block ms-3" >       The avengers</span>
-                                <span class="ms-3 mb-3 d-block"><img class="width me-3" src="./images/calendar.svg" alt="icon calendar">2012</span>
-                                <span class="ms-3 mb-3 d-block" ><img class="width me-3" src="./images/star.svg" alt="icon star">8.1</span>
+                                <span class="fw-bold mb-2 d-block ms-3 " >       The avengers</span>
+                                <span class="ms-3 mb-3 d-block d-flex align-items-center"><img width="20" height="20" class=" me-3" src="./images/calendar.svg" alt="icon calendar">2012</span>
+                                <span class="ms-3 mb-3 d-block d-flex align-items-center" ><img width="20" height="20" class=" me-3" src="./images/star.svg" alt="icon star">8.1</span>
 
-                                <button class="btn  border-info  text-info ms-3  mb-3" >
+                                <button class="btn  border-info  btn-outline-primary   ms-3  mb-3" >
                                     Watch trailer
                                 </button>
-                                <button class="btn border-primary text-primary mb-3 " >
+                                <button class="btn border-primary  btn-outline-primary  mb-3 " >
                                     More info
                                 </button>
-                                <button class="btn border-success text-success mb-3 " >
+                                <button class="btn border-success  btn-outline-success mb-3 " >
                                     Bookmark
                                 </button>
                                 
                             </div>
                         </div>
 
-
+                            
                       
-                            <!-- <form action="post">
-                                <div class="form-check"  >
-                                <input class="form-check-input" type="checkbox">
-
-                            </form> -->
+                       
                         </div>
                         
 
-                        
+                        <ul class="pagination mt-4 d-flex justify-content-center">
+                         
+                            <li class="page-item active "><a class="page-link   " href="#">1</a></li>
+                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                            <li class="page-item"><a class="page-link" href="#">4</a></li>
+                          </ul>
                         
                     </div  >
                 </div>
+
+                
             </div>
+
         </div>
         
     </body>
